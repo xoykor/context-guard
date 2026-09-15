@@ -1,0 +1,7 @@
+{
+  "package": "@deepseek-ai/dsh-compaction-basic",
+  "version": "0.1.5-rc.2",
+  "relativeTarget": "lib/index.js",
+  "baseSha256": "169bc0785d80a10e4d8d43f11a34a15174b60d194ca13bd702b2b139edc44e78",
+  "patchedSha256": "577dc4ccb32c34629fb30863707ca5c9affdc3bbe4f57883c9769c6c3bea37fb"
+}
