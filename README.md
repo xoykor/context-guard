@@ -64,3 +64,9 @@ The included tests exercise execution budgets, loop detection, job observation, 
 ## Provenance
 
 Extracted from xoykor's DSH configuration/backup and published as a standalone plugin. Maintained with AI-assisted development and review.
+
+## Optional runtime patch
+
+The repository includes the original optional checkpoint/compaction runtime patch under `patches/checkpoint-compaction/`. It provides the custom checkpoint capability used by advanced Context Guard configurations from the original local setup.
+
+This patch targets the locally patched DSH build it was extracted from and is **not claimed to be drop-in compatible with current upstream master**. Review the patch, its manifest and tests before applying it to another DSH version. Base Context Guard operation should be preferred when only upstream APIs are available.
